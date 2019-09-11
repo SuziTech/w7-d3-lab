@@ -1,8 +1,8 @@
 <template lang="html">
   <article v-if="country">
      <p>{{country.name}}</p>
-     <p>{{country.population}}</p>
      <p>{{country.capital}}</p>
+     <p>{{country.population}}</p>
   </article>
 </template>
 

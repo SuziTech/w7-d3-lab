@@ -13,5 +13,18 @@
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuziTech/w7-d3-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuziTech/w7-d3-lab/issues"
+  },
+  "homepage": "https://github.com/SuziTech/w7-d3-lab#readme"
 }

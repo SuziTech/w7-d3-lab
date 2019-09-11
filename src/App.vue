@@ -2,7 +2,7 @@
   <div>
     <h1>Countries</h1>
     <div class="main-container">
-      <country-detail :country="selectedCountry"></country-detail> 
+      <country-detail :country="selectedCountry"></country-detail>
       <countries-list :countries='countries'></countries-list>
     </div>
   </div>
@@ -18,7 +18,7 @@ export default {
   data(){
     return {
       countries: [],
-      selectedCountry: null
+      selected: ''
     };
   },
   mounted(){

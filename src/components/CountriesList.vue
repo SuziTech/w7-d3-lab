@@ -1,10 +1,12 @@
 <template lang="html">
   <div>
-    <ul>
-      <list-item v-for="(country, index) in countries" :country="country" :key="index"></list-item>
-    </ul>
+    <select v-model="selected">
+      <option v-for="(country, index) in countries"
+        :country="country.name" :key="index">
+        <span>{{ selected }}</span>        
+      </option>
+    </select>
   </div>
-
 </template>
 
 <script>
@@ -14,10 +16,13 @@ export default {
   name: 'countries-list',
   props: ['countries'],
   components: {
-    "list-item": ListItem
+    "option": Option
   }
 }
 </script>
 
 <style lang="css" scoped>
+ul {
+  list-style-type: none;
+}
 </style>
